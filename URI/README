@@ -1,0 +1,25 @@
+***About URI-OJ***
+===================
+-Developed by the Computer Science Department of URI University. 
+-The main goal of the project is to provide programming practice and knowledge sharing.
+-Contains more than 1,000 problems divided in 8 big categories.
+-This division help the users to focus on specific programming topics.
+-All problems are available in Portuguese and English. 
+-Also has public contests on a regular basis.
+
+
+URI-Solutions
+=====================
+This package contains my solutions to the problems from [URI Online Judge].
+The solutions are mostly programmed with C++, some may be Java.
+
+Warning!!!
+This code is provided for reference only. 
+I strongly suggest you to attempt a problem sincerely before looking at it's solution.
+You can freely use these code but at your own risk. I cannot be held guilty for any damage done to your property.
+.
+.
+Happy Coding... :)
+
+Biprodas Roy
+Dept of CSE, JUST.
