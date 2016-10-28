@@ -1,0 +1,21 @@
+//modular arithmetic
+#include <bits/stdc++.h>
+using namespace std;
+#define lng long long
+
+lng modExp(int x, int n, int M)
+{
+    if(n == 0) return 1;
+    lng ret = modExp(x, n >> 1, M); //n= n/2
+    if(n & 1) return ((ret % M) * (ret % M) * (x % M)) % M; //n is odd
+    return ((ret % M) * (ret % M)) % M; //n is even
+}
+
+int main(){
+    int b, p, m;
+    while(scanf("%d%d%d",&b,&p,&m)==3){
+        int ans= modExp(b,p,m);
+        cout<<ans<<endl;
+    }
+    return 0;
+}
